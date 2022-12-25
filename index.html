@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>Calculate your BMI!</h1>
+    <div class="base">
+        <h2>
+            <p>The Body mass index (BMI) is a measure of body fat based on 
+                height and weight that applies to adult men and women.</p>
+            <form>
+                <p class="inputArea"><u><b>your height in feet and inches here:</b></u></p>
+                
+                <div id="heightInput">
+                    <input id="feet" type="number" name="f" placeholder="feet">
+                    <input id="inches" type="number" name="i" placeholder="inches">
+                </div>
+                <p class="inputArea"> <u><b>your weight in pounds(lbs):</b></u><br></p>
+                
+                <div id="weightInput">
+                    <input id="weight" type="number" name="w" placeholder="pounds">
+                </div>
+                <button type="button" class="btn" onclick="calculateBMI()">Calculate My BMI</button>
+                <input type="reset" value="Reset" class="btn">
+            </form>
+            <div id="bmiOutput" class="out"><b>Your BMI result will show here</b></div>
+            <p class="bmiRange">Underweight: <=18.5 <br> Normal Wight: 18.5-24.9 <br> Overweight: 25-29.9 <br> Obese: >=30</p>
+        </h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

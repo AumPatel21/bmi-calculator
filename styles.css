@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(223, 224, 227);
+    font-family: monospace;
+    text-align: center;
+}
+
+.base {
+    background-color: darkgrey;
+    width: 600px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    padding-top: 1px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.inputArea {
+    padding: auto;
+}
+
+input {
+    background-color: slategray;
+}
+
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:slategray;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#feet, #inches, #weight {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 10px; 
+    width: 70px;
+    height: 1px;  
+}
+
+::placeholder {
+    color: black;
+    /* font-weight:lighter; */
+    font-style: oblique;
+}
+
+.out {
+    background-color: slategray;
+    width: 250px;
+    height: 18px;
+    margin-left: 0;
+    margin-right: auto;
+    padding-top: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.bmiRange {
+    font-weight: bold;
+    font-style: oblique;
+    color: whitesmoke;
+    background-color: dimgray;
+    width: 220px;
+    padding-left: 5px;
+}
