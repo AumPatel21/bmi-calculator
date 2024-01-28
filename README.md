@@ -1,3 +1,3 @@
 # bmi-calculator
 
-https://bmi-calculator.aumpatel16.repl.co
+https://aumpatel21.github.io/bmi-calculator/
